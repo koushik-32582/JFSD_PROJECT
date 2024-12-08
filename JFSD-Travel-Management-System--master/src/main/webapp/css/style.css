@@ -1,0 +1,217 @@
+html,body{
+  font-family: 'Viga';
+}
+.nav{
+  position: absolute;
+  font-family: 'Viga';
+  margin-left: 45%;
+  margin-top:50px;
+}
+.nav-link{
+  color: #f4f4f9; /* Updated to a soft white */
+}
+.main{
+  font-family: sans-serif;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Vibrant orange gradient */
+}
+.title{
+  position:absolute;
+  color: #1b262c; /* Dark navy for better contrast */
+  font-family: 'Viga';
+  margin-left: 50px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+.logo{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+.top{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+#circle{
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  transform: translateX(-200px)  translateY(-200px);
+  background-color: #ffeaa7; /* Soft yellow for visual enhancement */
+}
+.feature{
+  position: absolute;
+  font-family: 'Viga';
+  padding: 5px;
+  border-radius: 20%;
+  width: 375px;
+  color: #ffffff; /* Updated to white */
+  transition: 0.3s;
+}
+
+.feature ion-icon{
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  color: #d63031; /* Red for icon contrast */
+}
+
+.feature h5{
+  font-size: 50px;
+}
+.one{
+  transform: translateX(500px)  translateY(100px) rotateZ(0deg);
+  height: 175px;
+}
+.two{
+  transform: translateX(900px)  translateY(100px) rotateZ(0deg);
+}
+.three{
+  transform: translateX(500px)  translateY(300px) rotateZ(0deg);
+}
+.four{
+  transform: translateX(900px)  translateY(300px) rotateZ(0deg);
+}
+.hotel{
+	background-color:#fff;
+}
+.image{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left:85px;
+  top:100px;
+}
+#triangle-left {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 700px solid #74b9ff; /* Soft blue */
+  border-right: 550px solid transparent;
+  border-bottom: 700px solid #74b9ff; /* Matching soft blue */
+  border-left: 500px solid #55efc4; /* Soft green */
+}
+.f-title{
+  color: #2d3436; /* Dark grey */
+  font-family: 'Spicy Rice',sans-serif;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+.f-title::after{
+  content: " ";
+  position: absolute;
+  border: 2px solid #2d3436; /* Matching dark grey */
+  border: 20%;
+  width: 70px;
+  transform: translateY(100px) translateX(-170px);
+}
+.main-one{
+  font-family: sans-serif;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #48dbfb, #1dd1a1); /* Tropical blue and green gradient */
+}
+
+.f-para{
+  font-family: 'Viga', cursive;
+  margin-top: 30px;
+  color: #636e72; /* Grey for text */
+}
+.f-img{
+  transform: rotateZ(10deg);
+}
+.f-btn{
+  position: absolute;
+  margin-left: 31%;
+  border: none;
+}
+.click{
+  animation-name: fly;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  transform: linear;
+}
+@keyframes fly {
+  0%   {transform: translateX(0px) rotateZ(10deg);}
+  100% {transform: translateX(1580px) rotateZ(-10deg) translateY(-300px);}
+}
+.main-two {
+  font-family: sans-serif;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #00b894, #fdcb6e); /* Green to orange gradient */
+}
+.h-img-one{
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  transform: translateX(200px) translateY(50px);
+}
+.h-img-two{
+  height: 300px;
+  position: absolute;
+  transform: translateX(-20px) translateY(50px);
+  width: 300px;
+}
+.h-img-three{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  transform: translateX(700px) translateY(50px);
+}
+.h-img-four{
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  transform: translateX(900px) translateY(50px);
+}
+.h-para{
+  font-family: 'Viga', cursive;
+  margin-top: 30px;
+  color: #2d3436; /* Matching dark grey */
+}
+.h-title{
+  color: #2d3436; /* Matching dark grey */
+  font-family: 'Spicy Rice',sans-serif;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+.h-title::after{
+  content: " ";
+  position: absolute;
+  border: 2px solid #2d3436;
+  border: 20%;
+  width: 70px;
+  transform: translateY(100px) translateX(-150px);
+}
+
+.h-btn{
+  margin-left: 41%;
+}
+.footer{
+  width: 100%;
+  height: 50vh;
+  background: #222f3e; /* Deep navy blue */
+}
+
+.footer-title{
+  color: #dfe6e9; /* Soft white */
+}
+.footer-para{
+  color: #dfe6e9; /* Matching soft white */
+}
+
+.copy{
+  margin-left: 30%;
+}
